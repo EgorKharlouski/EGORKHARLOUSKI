@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <FORM id="my_form" name="user_data" method="get" action="form.php"></FORM>
+    <LABEL>
+        Check: <INPUT TYPE="checkbox" NAME="box">
+    </LABEL>
+    <LABEL FOR="passwd">Пароль:</LABEL>
+    <INPUT TYPE="password" ID="passwd" NAME="password" SIZE="25">
+    <HR>
+    <INPUT TYPE="password" ID="passwd" NAME="password" SIZE="25">
+    <LABEL FOR="passwd"> - пароль</LABEL>
+    <br>
+    <label for=“login”>Имя: </label> <br>
+    <INPUT TYPE="text" ID="login" NAME="login" AUTOFOCUS> <br>
+    <label for=“pass”> Пароль: </label> <br>
+    <INPUT TYPE="password" ID="pass" NAME="password">
+
+    <label>
+        <input type="checkbox" name="val_1" id="chbox1" checked> 1
+    </label>
+    <label>
+        <input type="checkbox" name="val_2" id="chbox2"> 2
+    </label>
+    <label>
+        <input type="checkbox" name="hobby[]"> check1
+    </label><br>
+    <label>
+        <input type="checkbox" name="hobby[]"> check2
+    </label><br>
+    <label>
+        <input type="checkbox" name="hobby[]"> check3
+    </label><br>
+
+    <label>
+        <input type="radio" name="radio_group" value="value_01" id="Checkbox_Group1_0" checked> 1
+    </label>
+    <label>
+        <input type="radio" name="radio_group" value="value_02" id="Checkbox_Group2_0"> 2
+    </label>
+    <input type="email" name=“email” placeholder="это обязательное поле" required> <br>
+
+    <input type="text" name=“text” autocomplete="off"> <br>
+
+    <input type="submit" value="Отправить">
+    <input type="reset" value="Сбросить">
+    <input type="image" src="email.gif">
+    <input type="button" value="Кнопка">
+
+    <button type='submit'> <br>
+        <b>Submit</b><br>
+        <img src='email.jpg'> <br>
+    </button>
+    <select name="list" id="list">
+        <option value="1">Минск</option>
+        <option value="2">Брест</option>
+        <option value="0" selected>Город</option>
+    </select>
+
+    <select name="list" id="list"><br>
+        <optgroup label="Города РБ">
+            <option value="1">Брест</option>
+            <option value="2">Минск</option>
+            <option value="3">Витебск</option>
+        </optgroup>
+        <optgroup label="Города России">
+            <option value="4">Москва</option>
+            <option value="5">Рязань</option>
+            <option value="6">Магадан</option>
+        </optgroup>
+    </select>
+
+
+</body>
+
+</html>
